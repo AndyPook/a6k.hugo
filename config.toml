@@ -1,4 +1,4 @@
-baseURL = "https://localhost:1313/"
+baseURL = "https://pook.info/"
 languageCode = "en-gb"
 title = "A6k"
 theme = "personal-web"
