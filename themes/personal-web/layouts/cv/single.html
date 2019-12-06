@@ -1,0 +1,25 @@
+{{ partial "header" .}}
+
+<h1><span>{{ .Title }}</span><span class="small"> [{{ .Params.job }}]</span></h1>
+<div class="tags">
+  {{ partial "cv/tags" .}}
+</div>
+
+{{ if .Params.Thumbnail }}
+<img title="{{.Title}}" alt="{{.Title}}" src="/cv/{{ .Params.Thumbnail }}" />
+{{ end }}
+
+<p>
+{{ .Content }}
+</p>
+
+{{ if .Params.testimonial }}
+  <h3>Testimonial</h3>
+  <div class="testimonial-list">
+    {{ with .Params.testimonial }}
+        {{ partial "cv/testimonial" . }}
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ partial "footer" .}}
