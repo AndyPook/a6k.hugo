@@ -1,0 +1,12 @@
+
+<h2>Recent work</h2>
+{{ $pages := where site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ range first 1 $pages }}
+  {{ if in .Site.Params.mainSections "cv" }}
+    {{ partial "cv/item" .}}
+  {{ else if in .Site.Params.mainSections "post" }}
+    {{ partial "post/item" .}}
+  {{ end }}
+{{ end }}
+
+See <a href="/cv">CV</a> for my full work history
