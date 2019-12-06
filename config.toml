@@ -1,0 +1,102 @@
+baseURL = "https://localhost:1313/"
+languageCode = "en-gb"
+title = "A6k"
+theme = "personal-web"
+copyright="© A6k"
+googleAnalytics = ""
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "A6k"
+  sub = "Software + Skydiving"
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = false
+  accentColor = "#FD3519"
+  mainSections = ["cv", "blog"] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  h1 = 'Bummer!'
+  p = "It seems that this page doesn't exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  blog = "article"
+  cv = "project"
+
+[params.sidebar]
+  backgroundImage = 'exit2.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "AndyPook-wag2015-small.jpg" # - default "/images/edna-west.jpg"
+
+[params.assets]
+  favicon = ""
+  customCSS = ""
+
+[params.social]
+  github = "https://github.com/andypook"
+  linkedin = "https://www.linkedin.com/in/andypook"
+  keybase = "https://keybase.io/andypook"
+  #twitter = "https://twitter.com/"
+  #medium = "https://medium.com/"
+  #codepen = "https://codepen.io/"
+  #facebook = "https://www.facebook.com/"
+  #youtube = "https://www.youtube.com/"
+  #instagram = "https://www.instagram.com/"
+  #gitlab = "https://gitlab.com/"
+
+[params.contact]
+  email = "andy@a6k.dev"
+  text= "e: Andy Pook" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+
+[menu]
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  title = "About section"
+  url = "/"
+  weight = -120
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  title = "CV section"
+  url = "/cv/"
+  weight = -110
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = "Blog section"
+  url = "/post/"
+  weight = -100
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
