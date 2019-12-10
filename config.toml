@@ -26,14 +26,14 @@ pygmentsCodeFences=true
   mainSections = ["cv", "blog"] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
 
 [params.notFound]
-  gopher = "/images/gopher.png" # checkout https://gopherize.me/
+  gopher = "404.png" # checkout https://gopherize.me/
   h1 = 'Bummer!'
   p = "It seems that this page doesn't exist."
 
 [params.sections]
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
-  blog = "article"
+  post = "article"
   cv = "project"
 
 [params.sidebar]

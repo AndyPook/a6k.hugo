@@ -12,15 +12,17 @@
     {{ $scratch.Set "section" (.Site.Params.sections.post) }}
   {{ end }}
 
-  <p>While you're here, you can check out my last {{ $scratch.Get "section" }}:</p>
-  {{ $pages := where site.RegularPages "Type" "in" .Site.Params.mainSections }}
-  {{ range first 1 $pages }}
-    {{ if in .Site.Params.mainSections "portfolio" }}
-      {{ partial "portfolio/item" .}}
-    {{ else if in .Site.Params.mainSections "post" }}
+
+  <p>While you're here, you can check out my last article:</p>
+  {{ range first 1 (where site.RegularPages "Type" "in" "post") }}
       {{ partial "post/item" .}}
-    {{ end }}
   {{ end }}
+
+  <p>And my last job:</p>
+  {{ range first 1 (where site.RegularPages "Type" "in" "cv") }}
+      {{ partial "cv/item" .}}
+  {{ end }}
+
 {{end}}
 
 {{ partial "footer" .}}
