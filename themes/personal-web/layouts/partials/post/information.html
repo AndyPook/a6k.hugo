@@ -7,3 +7,14 @@
   {{ partial "svg" (dict "iconName" "calendar" "size" "18px")}}
   <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
 </div>
+
+{{ partial "svg" (dict "iconName" "tag" "size" "18px")}} [
+{{ $taxonomy := "tags" }}
+{{ with .Param $taxonomy }}
+    {{ range $index, $tag := . }}
+      {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+          <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+      {{- end -}}
+    {{- end -}}
+{{ end }}
+]

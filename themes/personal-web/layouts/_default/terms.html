@@ -1,0 +1,11 @@
+{{ partial "header" .}}
+
+<h1 id="title"> {{ .Title }}</h1>
+<p>{{ .Content }}</p>
+<ul>
+    {{ range .Data.Terms.Alphabetical }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> [{{ .Count }}]</li>
+    {{ end }}
+</ul>
+
+{{ partial "footer" .}}
