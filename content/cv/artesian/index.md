@@ -1,14 +1,11 @@
 ---
 title: Artesian Solutions
 description: A SaaS product providing internet content to sales and marketing
-date: "2015-02-28"
+date: 2015-02-28
 jobDate: 2007-Aug - 2015-Feb
 job: Chief Architect
 work: [coding, architecture, devops]
-techs: [dotnet, c#, Lucene, SQL]
-#designs: [Photoshop]
-#thumbnail: game/game-logo.png
-#projectUrl: https://game.co.uk
+techs: [dotnet, csharp, Lucene, SQL]
 ---
 
 Uses a taxonomy to tag and categorise content. Users are supplied with relevant stories that allow them to engage with their prospects and customers. Also provides access to company information, both to individual companies and via segmentation/faceting to isolate a prospect list.

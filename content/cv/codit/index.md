@@ -1,12 +1,11 @@
 ---
 title: Codit/SwissRe
 description: Parametric Natural Catastrophe insurance
-date: "2018-07-31"
+date: 2018-07-31
 jobDate: 2018-Feb - 2018-Jul
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [Azure, net46+, dotnetCore, ServiceBus, AppServices, LogicApps, Api’s, caching, messaging, vsts, git]
-designs: [Photoshop]
+techs: [Azure, net46+, dotnet Core, ServiceBus, AppServices, LogicApps, api, caching, messaging, vsts, git]
 thumbnail: codit/logo.png
 projectUrl: https://www.swissre.com/
 ---

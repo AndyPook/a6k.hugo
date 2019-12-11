@@ -1,12 +1,11 @@
 ---
 title: Global Radio
 description: Ad scheduling systems
-date: "2016-12-30"
+date: 2016-12-30
 jobDate: 2016-Sep  - 2016-Dec
 job: Contract Developer
 work: [Asp.net WebApi, Angular2, TypeScript, Kendo, dapper, SqlServer, CQS, RabbitM]
-techs: [c#, javascript, D3]
-designs: [Photoshop]
+techs: [csharp, javascript, D3]
 thumbnail: globalradio/global-logo-footer.svg
 projectUrl: https://global.com
 ---

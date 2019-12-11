@@ -1,14 +1,11 @@
 ---
 title: Haynes Publishing
 description: Book Retailing
-date: "1992-09-30"
+date: 1992-09-30
 jobDate: 1987-Aug - 1992-Sep
 job:  Programmer
 work: [coding]
 techs: [DataGeneral, unix, scripting, PowerHouse 4GL]
-#designs: 
-#thumbnail: 
-#projectUrl: 
 ---
 
 Order processing, stock control, accounting.
