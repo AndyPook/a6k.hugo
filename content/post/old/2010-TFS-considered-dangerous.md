@@ -2,6 +2,7 @@
 title: TFS considered dangerous
 date: 2010-03-09T11:18:00Z
 summary: Martin Fowler did a survey of version control software coming up with an “approval” rating
+tags: [dev]
 ---
 
 Martin Fowler did a survey of version control software coming up with an “approval” rating. Subversion 93%; TFS 0%.

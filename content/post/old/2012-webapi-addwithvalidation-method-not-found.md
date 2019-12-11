@@ -2,6 +2,7 @@
 title: WebAPI - AddWithoutValidation method not found
 date: 2012-08-24T10:09:00Z
 summary: If you are using WebAPI and have recently installed VS2012. Your WebAPI stuff will be broken. Your controller method will be called then you’ll just get a 500 response.
+tags: [dotnet]
 ---
 
 If you are using WebAPI and have recently installed VS2012. Your WebAPI stuff will be broken.

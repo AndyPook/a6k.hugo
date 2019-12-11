@@ -2,6 +2,7 @@
 title: Don't just roll the dice
 date: 2010-03-17T11:35:00Z
 summary: How do you price your software?
+tags: [dev]
 ---
 
 ===Don't just roll the dice===

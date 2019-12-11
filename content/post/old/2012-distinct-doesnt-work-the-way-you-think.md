@@ -2,6 +2,7 @@
 title: Distinct - Doesn’t work the way you think it does
 date: 2012-08-29T09:55:00Z
 summary: IEqualityComparer<T> is a “hash code provider”
+tags: [dotnet]
 ---
 
 I recently wanted to retrieve the set of unique values out of a list of objects. Say the object looked like this…

@@ -2,6 +2,7 @@
 title: LuceneNet Sparse Faceted Search
 date: 2012-12-10T15:44:00Z
 summary: Faceted Search for large cardinality
+tags: [dotnet, lucene]
 ---
 
 I recently had a use for [faceted search](http://en.wikipedia.org/wiki/Faceted_search) in a project using Lucene.net. The contrib project for [Lucene.Net](http://lucenenet.apache.org/) provides SimpleFacetedSearch which is great, but… it becomes very inefficient when your index has lots of values in the given field. So, for example, if you have a product category code that only has a hand full of values then SimpleFS is fine. If you facet against date and you have significant history then SimpleFS will eat all your memory very quickly.

@@ -2,6 +2,7 @@
 title: More Numbers Every Awesome Programmer Must Know
 date: 2013-01-25T09:38:00Z
 summary: Mike Taulty shares a series of posts continuing 20 (so far) interesting and surprising aspects of the JavaScript Language
+tags: [dev]
 ---
 
 http://highscalability.com/blog/2013/1/15/more-numbers-every-awesome-programmer-must-know.html

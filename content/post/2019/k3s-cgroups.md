@@ -1,7 +1,8 @@
 ---
-title: "K3s cgroup setup"
+title: K3s cgroup setup
 date: 2019-12-10T14:00:00Z
 summary: Fixing cgroups in K3s on Alpine
+tags: ["k3s"]
 ---
 
 I'm building a kubernetes cluster on baremetal using some little x64 boxes at home. Installing Alpine and k3s is pretty easy. 

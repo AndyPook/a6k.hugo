@@ -2,6 +2,7 @@
 title: IEqualityComparer trick
 date: 2012-08-29T09:55:00Z
 summary: More about Distinct
+tags: [dotnet]
 ---
 
 In a previous post I showed that Distinct  uses GetHashCode to spot different values and used GroupBy to workaround.

@@ -2,6 +2,7 @@
 title: Stop VS2012 shouting!
 date: 2012-12-12T13:24:00Z
 summary: STOP VS USING ALL CAPS!
+tags: [dev]
 ---
 
  1. Start PowerShell

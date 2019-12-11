@@ -1,7 +1,8 @@
 ---
-title: "Windows, please don't group Downloads"
+title: Windows, please don't group Downloads
 date: 2019-12-05T18:04:58Z
 summary: Starting with Windows 1903, Explorer has started grouping Downloads by date... Super annoying.
+tags: ["Windows"]
 ---
 
 Starting with Windows 1903, Explorer has started grouping Downloads by date. You can right-click and change the grouping. But it will always revert to group-by date. Super annoying.

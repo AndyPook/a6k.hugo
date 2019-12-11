@@ -2,6 +2,7 @@
 title: JSONP FTW
 date: 2010-03-09T11:18:00Z
 summary: Extending WebAPI to support jsonp
+tags: [dotnet]
 ---
 
 We’ve been looking at how to integrate our stuff with MS Dynamics CRM. Dynamics does not play nice with others. I won’t go into the details here but I think we’re going to end up using javascript as a proxy to get things done. As a result I’ve been looking at the new (ish) WebAPI bits from the WCF team (http://wcf.codeplex.com). The basic motivation behind this project is to make WCF talk HTTP like a native. Things like content format negotiation are baked in. So you can write a single service and have different clients receive differently formatted responses. So a JQuery ajax call will see JSON another client might see XML. You can even point a browser at your service and get HTML via Razor templates (very useful if you want to add an admin UI to your service.
