@@ -5,7 +5,7 @@ date: 2019-11-29
 jobDate: 2019-Mar - 2019-Nov
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [dotnet Core, csharp, Docker, Kafka]
+techs: [dotnet Core, csharp, Docker, Kafka, messaging, SOAP]
 projectUrl: https://game.co.uk
 testimonial:
   name: Keith Martin

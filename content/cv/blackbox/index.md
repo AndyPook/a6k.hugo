@@ -5,7 +5,7 @@ date: 2018-02-28
 jobDate: 2017-Feb - 2018-Feb
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [Azure, ServiceFabric, redis, cosmosdb, ServiceBus, sql, csharp, aspnetcore, akka]
+techs: [dotnet, csharp, aspnetcore, Azure, ServiceFabric, redis, cosmosdb, ServiceBus, sql, akka]
 testimonial:
   name: Ian Turner
   role: Technical Director

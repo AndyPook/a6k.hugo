@@ -5,7 +5,7 @@ date: 2019-02-28
 jobDate: 2018-Jul - 2019-Feb
 job: Contract Deveoper
 work: [coding, architecture, devops]
-techs: [dotnet Core, csharp, docker, kubernetes]
+techs: [dotnet Core, csharp, docker, kubernetes, RabbitMQ, messaging]
 projectUrl: https://gfk.com
 ---
 

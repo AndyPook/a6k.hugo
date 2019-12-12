@@ -5,7 +5,7 @@ date: 2016-07-31
 jobDate: 2016-Apr - 2016-Jul
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [dotnet, csharp]
+techs: [dotnet, csharp, dapper]
 thumbnail: connectionseducation/logo.png
 projectUrl: https://www.connectionseducation.com/
 testimonial:

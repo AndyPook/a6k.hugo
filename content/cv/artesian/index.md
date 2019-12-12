@@ -5,7 +5,7 @@ date: 2015-02-28
 jobDate: 2007-Aug - 2015-Feb
 job: Chief Architect
 work: [coding, architecture, devops]
-techs: [dotnet, csharp, Lucene, SQL]
+techs: [dotnet, csharp, Lucene, SQL, dapper, TeamCity]
 ---
 
 Uses a taxonomy to tag and categorise content. Users are supplied with relevant stories that allow them to engage with their prospects and customers. Also provides access to company information, both to individual companies and via segmentation/faceting to isolate a prospect list.

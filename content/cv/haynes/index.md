@@ -5,7 +5,7 @@ date: 1992-09-30
 jobDate: 1987-Aug - 1992-Sep
 job:  Programmer
 work: [coding]
-techs: [DataGeneral, unix, scripting, PowerHouse 4GL]
+techs: [DataGeneral, unix, PowerHouse 4GL]
 ---
 
 Order processing, stock control, accounting.

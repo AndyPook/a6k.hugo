@@ -5,7 +5,7 @@ date: 2018-07-31
 jobDate: 2018-Feb - 2018-Jul
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [Azure, net46+, dotnet Core, ServiceBus, AppServices, LogicApps, api, caching, messaging, vsts, git]
+techs: [Azure, dotnet, dotnet Core, ServiceBus, AppServices, LogicApps, caching, messaging, vsts, git]
 thumbnail: codit/logo.png
 projectUrl: https://www.swissre.com/
 ---
