@@ -1,0 +1,6 @@
+
+{{ range (where site.RegularPages "Type" "in" "cv") }}
+  {{ if .testimonial }}
+    {{ partial "cv/testimonial" .}}
+  {{ end }}
+{{ end }}
