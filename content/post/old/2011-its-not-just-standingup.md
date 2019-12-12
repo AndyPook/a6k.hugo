@@ -5,6 +5,6 @@ summary: Daily stand-up meetings have become a common ritual of many teams, espe
 tags: [dev]
 ---
 
-Daily stand-up meetings have become a common ritual of many teams, especially in Agile software development. However, there are many subtle details that distinguish effective stand-ups and a waste of time.
+Daily stand-up meetings have become a common ritual of many teams, especially in Agile software development. However, there are many subtle details that distinguish effective stand-ups from a waste of time.
 
 http://martinfowler.com/articles/itsNotJustStandingUp.html 
