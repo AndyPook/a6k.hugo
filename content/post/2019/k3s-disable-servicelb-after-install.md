@@ -2,7 +2,7 @@
 title: Disable ServiceLB after install
 date: 2019-12-11T13:56:00Z
 summary: Removing the default ServiceLB
-tags: ["k3s"]
+tags: ["k8s"]
 ---
 
 Simple... Just re-install the master node.

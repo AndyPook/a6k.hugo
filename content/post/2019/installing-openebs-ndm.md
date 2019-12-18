@@ -2,7 +2,7 @@
 title: Installing OpenEBS - NDM
 date: 2019-12-18T17:50:00Z
 summary: Installing dependencies of ropenebs on Alpine
-tags: ["k3s"]
+tags: ["k8s"]
 ---
 
 OpenEBS requires a few dependencies to be installed on Alpine.
@@ -24,4 +24,9 @@ udev-settle start
 rc-update add udev sysinit
 rc-update add udev-trigger sysinit
 rc-update add udev-settle sysinit
+```
+
+#### Install OpenEBS
+```sh
+helm install stable/openebs --name openebs --namespace openebs
 ```
