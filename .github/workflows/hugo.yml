@@ -18,7 +18,7 @@ jobs:
         uses: crazy-max/ghaction-hugo@v1
         with:
           version: latest
-          extended: false
+          extended: true
           args: --cleanDestinationDir --minify --verbose
       -
         # https://github.com/crazy-max/ghaction-github-pages
