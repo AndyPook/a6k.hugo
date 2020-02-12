@@ -1,0 +1,32 @@
+name: hugo
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        # https://github.com/actions/checkout
+        name: Checkout
+        uses: actions/checkout@v1
+      -
+        # https://github.com/crazy-max/ghaction-hugo
+        name: Run Hugo
+        uses: crazy-max/ghaction-hugo@v1
+        with:
+          version: latest
+          extended: false
+          args: --cleanDestinationDir --minify --verbose
+      -
+        # https://github.com/crazy-max/ghaction-github-pages
+        name: Deploy
+        if: success() && github.event_name != 'pull_request'
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: public
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
