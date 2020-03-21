@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/andypook
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pook.info
+  * I am andypook (https://keybase.io/andypook) on keybase.
+  * I have a public key ASDTiKH0PWmgycLyEv9erqHBwKrpqc9ap3OAUUKSmbdzRgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012055a385711acf94b020bc139fe4a26629295dcb5320943340578a3f7266f389c60a",
+      "host": "keybase.io",
+      "kid": "0120d388a1f43d69a0c9c2f212ff5eaea1c1c0aae9a9cf5aa7738051429299b773460a",
+      "uid": "bf025d93a7b57f316de9b7a16031d519",
+      "username": "andypook"
+    },
+    "merkle_root": {
+      "ctime": 1546690134,
+      "hash": "79c318cb99f898cc9955c7e1030345b6e229d6f39861c3ae0d56e786f92dbe4082593f96c1e1e462cdfe969dcbc2d60eee26ab7d7b2a1ebb340aa18afb96111f",
+      "hash_meta": "a28e6bc19967acf5d0b1e87f22b9344c71bdd8dcd7c32499ad574896d1bdb525",
+      "seqno": 4236029
+    },
+    "service": {
+      "entropy": "T4uyLn3P1JW7/MOkCokhdsoD",
+      "hostname": "pook.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.12.3"
+  },
+  "ctime": 1546690232,
+  "expire_in": 504576000,
+  "prev": "2265b0057bcc84511fdee772c1058e8958ae01dee7ea81e271b7552d3a49a8d4",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg04ih9D1poMnC8hL/Xq6hwcCq6anPWqdzgFFCkpm3c0YKp3BheWxvYWTESpcCCsQgImWwBXvMhFEf3udywQWOiViuAd7n6oHicbdVLTpJqNTEIMoRX2gsxG10MLh7aN63UqJhMHLnCuSzvue7nJ9XwB2lAgHCo3NpZ8RAiKzSVBAX3S3gLhLnMtjGjdQN6wvCEzjd/gsdbhUyZTUN8pHJqEzdwQ/fjbUX2Wej5cOjDys/2Bup4wwz2kLpAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFWbkzgdzQCeS53I+XEHNOPedC+oEDfhIKA6ca3RaSZNo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/andypook
+
+==================================================================
