@@ -5,7 +5,7 @@ date: 2020-02-24
 jobDate: 2020-Feb - present
 job: Contract Developer
 work: [coding, architecture, devops]
-techs: [dotnet Core, csharp, Docker, Kubernetes, RabbitMQ, MassTransit, Azure devops]
+techs: [dotnet Core, csharp, Docker, Kubernetes, Nats, RabbitMQ, MassTransit, Azure devops]
 projectUrl: https://medivet.co.uk
 ---
 
