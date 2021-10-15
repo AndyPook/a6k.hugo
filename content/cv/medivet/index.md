@@ -2,7 +2,7 @@
 title: Medivet
 description: Freedom2 project
 date: 2020-02-24
-jobDate: 2020-Feb - present
+jobDate: 2020-Feb - 2021-Jun
 job: Contract Developer
 work: [coding, architecture, devops]
 techs: [dotnet Core, csharp, Docker, Kubernetes, Nats, RabbitMQ, MassTransit, Azure devops]
