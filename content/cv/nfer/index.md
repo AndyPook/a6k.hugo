@@ -14,3 +14,4 @@ Management of Pupil & Establishment details and integration of the web based tes
 Help move project towards a more "micro-services" based approach.
 Built the module that takes the Test details, the responses of the Pupil, together with an inhouse set of rules to assess the responses to mark and assign scores.
 Integrated with systems both up and downstream.
+Initial work on improving devops pipelines and deployments to k8s.
