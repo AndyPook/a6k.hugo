@@ -73,6 +73,13 @@ pygmentsCodeFences=true
   weight = -120
 
 [[menu.main]]
+  identifier = "cv.pdf"
+  name = "CV.pdf"
+  title = "CV PDF"
+  url = "/cv.pdf"
+  weight = -105
+
+[[menu.main]]
   identifier = "cv"
   name = "CV"
   title = "CV section"
