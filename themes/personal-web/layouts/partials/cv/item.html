@@ -2,5 +2,6 @@
   <a href="{{.Permalink}}"><h2><span>{{ .Title }}</span><span class="small"> [{{ .Params.job }}]</span></h2></a>
   <p class="small">{{ .Params.jobDate }} / {{ .Params.description }}</p>
   <p>{{ .Content }}</p>
-  <p class="small">tech: {{ delimit .Params.techs ", " | safeHTML }}</p>
+  <div class="small">tech: {{ delimit .Params.techs ", " | safeHTML }}</div>
+  <div class="small" style="margin-bottom: 1em">work: {{ delimit .Params.work ", " | safeHTML }}</div>
 </div>

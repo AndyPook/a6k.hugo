@@ -47,6 +47,7 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
+  mastodon = "https://hachyderm.io/@andypook"
   github = "https://github.com/andypook"
   linkedin = "https://www.linkedin.com/in/andypook"
   keybase = "https://keybase.io/andypook"
