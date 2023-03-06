@@ -9,11 +9,12 @@ techs: [dotnet, csharp, Kubernetes, Kafka, akka.net, gitlab, argocd]
 projectUrl: https://ovalmoney.com
 ---
 
-System to process user orders for financial instruments.
+Fractional Investment project:
+A system to process user orders for financial instruments in partial amounts.
 
 Partly a modernisation project. Placing streaming api’s in front of legacy feeds.
-The order processing system written using akka.net
+The core order processing system written using akka.net. Various services to integrate with pricing; 3rd party buy/sell and account/bank operations; interact with in-house systems to tie it all together.
 
-dotnet 6/7 with aspnetcore; akka.net; kafka; postgresql; sql server; custom sockets.
+dotnet 6/7 with aspnetcore, akka.net; kafka; postgresql; sql server.
 Hosted with kubernetes in AWS. 
 CI-CD using gitlab, helm, argocd
