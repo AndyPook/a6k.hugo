@@ -1,0 +1,69 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -EnableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
+Set-TaskbarOptions -size small -Combine Always -AlwaysShowIconsOn
+
+Enable-RemoteDesktop
+Update-ExecutionPolicy Unrestricted -Force
+Disable-InternetExplorerESC
+Disable-BingSearch
+
+# disable defrag because I have an SSD
+Get-ScheduledTask -TaskName *defrag* | Disable-ScheduledTask
+
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst TelnetClient -source windowsFeatures
+
+cinst Boxstarter
+cinst Boxstarter.Common
+cinst Boxstarter.Bootstrapper
+cinst Boxstarter.Chocolatey
+cinst Boxstarter.WinConfig
+cinst Boxstarter.HyperV
+
+cinst DotNet3.5
+cinst DotNet4.5.1
+cinst DotNet4.6.1
+cinst DotNet4.6.2
+cinst DotNet4.7
+cinst DotNetCore
+cinst DotNetCore-sdk
+
+cinst git
+cinst git-credential-winstore
+cinst gitextensions
+cinst github
+cinst poshgit
+cinst diffmerge
+cinst gitkraken
+
+cinst 7zip
+cinst conemu
+cinst curl
+cinst fiddler4
+cinst googlechrome.dev
+cinst google-backup-and-sync
+cinst hashcheck
+cinst ilspy
+cinst linqpad
+cinst notepad2
+cinst notepadplusplus
+cinst NuGet.CommandLine
+cinst putty
+cinst sysinternals
+cinst webpi
+cinst Wget
+cinst windirstat
+cinst zoomit
+
+cinst visualstudiocode
+cinst vscode-powershell
+cinst vscode-csharp
+cinst vscode-docker
+cinst vscode-csharpextensions
+cinst vscode-mssql
+
+cinst docker-for-windows
+
+Install-ChocolateyPinnedTaskBarItem "$env:programfiles\Google\Chrome\Application\chrome.exe"
+
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -AcceptEula -Full -GetUpdatesFromMS
