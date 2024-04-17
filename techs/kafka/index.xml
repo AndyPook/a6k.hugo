@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kafka on A6k</title><link>https://a6k.dev/techs/kafka/</link><description>Recent content in Kafka on A6k</description><generator>Hugo 0.125.0</generator><language>en-gb</language><copyright>© A6k</copyright><lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://a6k.dev/techs/kafka/index.xml" rel="self" type="application/rss+xml"/><item><title>Oval Money</title><link>https://a6k.dev/cv/ovalmoney/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://a6k.dev/cv/ovalmoney/</guid><description>Fractional Investment project:
+A system to process user orders for financial instruments in partial amounts.
+Partly a modernisation project. Placing streaming api’s in front of legacy feeds.
+The core order processing system written using akka.net. Various services to integrate with pricing; 3rd party buy/sell and account/bank operations; interact with in-house systems to tie it all together.
+dotnet 6/7 with aspnetcore, akka.net; kafka; postgresql; sql server.
+Hosted with kubernetes in AWS.</description></item><item><title>Game</title><link>https://a6k.dev/cv/game/</link><pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate><guid>https://a6k.dev/cv/game/</guid><description>Micro-services integrating legacy systems (JDA, WebSphere) with new Product Information Management system (Akeneo, Algolia).
+CSharp in dotnetcore, with docker, Kafka.
+Created build system with Bitbucket/Bamboo. Ensured consistency, testing, versioning across all libraries and services.
+Created app framework to simplify creation of services (logging, metrics, config etc) and producing/consuming events on Kafka and IBM MQ.</description></item></channel></rss>
