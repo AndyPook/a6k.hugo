@@ -1,5 +1,5 @@
 baseURL = "https://a6k.dev/"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "A6k"
 theme = "personal-web"
 copyright="© A6k"
@@ -89,12 +89,12 @@ pygmentsCodeFences=true
   url = "/cv/"
   weight = -110
 
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  title = "Blog section"
-  url = "/post/"
-  weight = -100
+#[[menu.main]]
+#  identifier = "blog"
+#  name = "Blog"
+#  title = "Blog section"
+#  url = "/post/"
+#  weight = -100
 
 [sitemap]
   changefreq = "monthly"
@@ -107,7 +107,7 @@ pygmentsCodeFences=true
     disable = true
     respectDoNotTrack = true
     useSessionStorage = false
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
     simple = false

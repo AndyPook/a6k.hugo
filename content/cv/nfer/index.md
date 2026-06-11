@@ -4,7 +4,7 @@ description: ENOT project
 date: 2021-07-28
 jobDate: 2021-Jun - 2021-Oct
 job: Contract Developer
-work: [coding, architecture, devops]
+role: [coding, architecture, devops]
 techs: [dotnet Core, csharp, Docker, Kubernetes, Nats, RabbitMQ, MassTransit, Azure devops]
 projectUrl: https://nfer.ac.uk
 ---

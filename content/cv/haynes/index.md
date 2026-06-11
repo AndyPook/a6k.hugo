@@ -4,7 +4,7 @@ description: Book Retailing
 date: 1992-09-30
 jobDate: 1987-Aug - 1992-Sep
 job:  Programmer
-work: [coding]
+role: [coding]
 techs: [DataGeneral, unix, PowerHouse 4GL]
 ---
 

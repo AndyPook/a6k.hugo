@@ -4,7 +4,7 @@ description: Business Intelligence
 date: 2007-08-30
 jobDate: 2004-Jul - 2007-Aug
 job:  Support, Trainer, Consultant
-work: [coding, architecture, devops]
+role: [coding, architecture, devops]
 techs: [delphi, BI, ActiveX, Notes, networks]
 ---
 

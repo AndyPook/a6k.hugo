@@ -2,9 +2,9 @@
 title: Oval Money
 description: Fractional Investment project
 date: 2022-06-06
-jobDate: 2022-June - present
+jobDate: 2022-June - 2022-Dec
 job: Contract Developer
-work: [coding, architecture, devops]
+role: [code, architecture, devops]
 techs: [dotnet, csharp, Kubernetes, Kafka, akka.net, gitlab, argocd]
 projectUrl: https://ovalmoney.com
 ---

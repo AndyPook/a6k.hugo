@@ -4,7 +4,7 @@ description: A SaaS product providing internet content to sales and marketing
 date: 2015-02-28
 jobDate: 2007-Aug - 2015-Feb
 job: Chief Architect
-work: [coding, architecture, devops]
+role: [coding, architecture, devops]
 techs: [dotnet, csharp, Lucene, SQL, dapper, TeamCity]
 ---
 

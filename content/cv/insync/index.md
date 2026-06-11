@@ -4,7 +4,7 @@ description: Channel Partners project
 date: 2022-01-11
 jobDate: 2022-Jan - 2022-Apr
 job: Contract Developer
-work: [coding, architecture, devops]
+role: [code, architecture, devops]
 techs: [dotnet Core, dotnet Framework, csharp, Azure ServiceBus, Azure devops]
 projectUrl: https://insync-group.co.uk
 ---
